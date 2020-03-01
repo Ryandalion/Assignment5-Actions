@@ -13,8 +13,8 @@ class TestCase(unittest.TestCase):
         self.assertNotEqual(expected, task_test.firstrun())
 
     def test_area(self):
-        result = task_test.compute_area(5);
-        self.assertEqual(78.5, result);
+        result = task_test.compute_area(5)
+        self.assertEqual(78.5, result)
 
 
 if __name__ == '__main__':
