@@ -14,6 +14,7 @@ def compute_first_last(sentence):
     last_element = sentence[-1]
     return first_element, last_element
 
+
 def compute_days(date_1, date_2):
     difference = date_2 - date_1
     return difference.days
