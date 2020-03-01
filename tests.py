@@ -16,6 +16,8 @@ class TestCase(unittest.TestCase):
         result = task_test.compute_area(5)
         self.assertEqual(78.5, result)
 
+    def test_first_last(self):
+        self.assertEqual([1, 10], task_test.compute_first_last([1,2,3,4,5,6,7,8,9,10]))
 
 if __name__ == '__main__':
     unittest.main()

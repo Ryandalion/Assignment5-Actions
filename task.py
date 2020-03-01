@@ -5,3 +5,9 @@ def firstrun():
 def compute_area(radius):
     area = 3.14 * radius * radius
     return area
+
+
+def compute_first_last(sentence):
+    first_element = sentence[0]
+    last_element = sentence[-1]
+    return first_element, last_element
