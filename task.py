@@ -1,5 +1,3 @@
-from datetime import date
-
 def firstrun():
     return "success"
 
@@ -18,4 +16,5 @@ def compute_first_last(sentence):
 def compute_days(date_1, date_2):
     difference = date_2 - date_1
     return difference.days
+
 
